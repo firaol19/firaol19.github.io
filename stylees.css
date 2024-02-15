@@ -1072,8 +1072,11 @@ body {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     {
+    *{
+        overflow-x: hidden;
+    }
         width: 100%;
     }
     .top , .midle {
