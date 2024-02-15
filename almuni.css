@@ -1,0 +1,95 @@
+.almuni {
+    height: 90px;
+    background-color: #252525;
+    color: #ffffff;
+    font-size: 35px;
+}
+.almuni1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.almuni p {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.video {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 30%;
+    height: 300px;
+}
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+.text1 p:first-child {
+    font-size: 1.5rem ;
+}
+.text1 p:last-child {
+    margin-top: 30px;
+    color: #919191;
+}
+.text1 {
+    width: 30%;
+    margin-top: 40px;
+}
+.apdpd2 {
+    width: 30%;
+}
+.writefor {
+    margin-top: 50px;
+    width: fit-content;
+
+}
+.writefor span {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+.writefor input[type=text] {
+    margin-top: 30px;
+    width: 300px;
+    padding: 3px;
+}
+.writefor input {
+    width: 300px;
+    padding: 3px
+}
+.writefor button:hover {
+    background-color: #252525;
+    color: #ffffff;
+}
+.writefor textarea {
+    width: 300px;
+}
+.writefor button {
+    padding: 10px;
+    background-color: #5c9cc7;
+    border: none;
+    border-radius: 2px;
+    margin-top: 15px;
+
+}
+@media only screen and (max-width: 950px) and (min-width: 700px) {
+    .video {
+        width: 50%;
+    }
+    .text1 {
+        width: 40%;
+    }
+    .apdpd2{
+        padding-left: 35%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .video {
+        width: 90%;
+    }
+    .text1 {
+        padding-left: 50px;
+    }
+}
+footer {
+    margin-top: 20px;
+}

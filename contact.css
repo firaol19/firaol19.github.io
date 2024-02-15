@@ -1,0 +1,56 @@
+.contactus {
+    margin-top: 50px;
+    height: 110px;
+    background-color: #252525;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.contactus p {
+    display: inline;
+}
+#contactus {
+    float: right;
+    padding-right: 50px;
+}
+#contactus p:hover {
+    cursor: pointer;
+}
+
+.pcontact  {
+    padding-left: 50px;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    
+}
+.mapp iframe {
+    width: 100%;
+    height: 100%;
+}
+.mapp {
+    width: 50%;
+    height: 300px;
+}
+
+.allcontact {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+#allcontact {
+    width: fit-content;
+    line-height: 20px;
+    color: #919191;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 860px) {
+    .mapp {
+        width: 95%;
+        padding-left: 50px;
+
+    }
+    #allcontact {
+    text-align:  center;
+    padding-left: 80px;
+    }
+}
